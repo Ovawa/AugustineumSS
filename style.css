@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color:gold;  
+    padding: 100px 0 30px 30;
+    margin: 0;
+    font-size: 13px;
+    line-height: 15px;
+    box-shadow: 3px 3px 5px rgba(32, 29, 29, 0.947);
+    z-index: 100;
+} 
+
+fieldset{
+    width: 80%;
+    border-radius: 15px;
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.5);
+    backdrop-filter: blur(5px);
+    border-color: #8c0808;
+    padding: 100px 0 30px 30;
+    margin: 5% auto;
+    font-size: 13px;
+    line-height: 15px;
+    box-shadow: 3px 3px 5px rgba(32, 29, 29, 0.947);
+    margin-bottom: 150px;
+}
+
+.row{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.5);
+    box-shadow: 3px 3px 5px rgba(32, 29, 29, 0.947);
+
+}
+
+.roww{
+    width: 80%;
+    height: fit-content;
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-shadow: 3px 3px 5px rgba(32, 29, 29, 0.947);
+    background-color:rgb(172, 190, 196);
+}
+
+.colunm{
+    display: flex;
+    padding: 10px;
+    text-align:justify;
+    flex:1;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.column h5{
+    color: #000;
+}
+
+i:hover{
+    background-color: #fbb1b1;
+}
+
+i,p,h1,h2,h3,h5,h6{
+    color: rgb(118, 6, 6);
+}
+
+.boxes{
+    margin: 3%;
+    padding: 3%;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px; 
+  max-width: 500px;
+ 
+}
+.box{
+    flex: 1 1 calc(50% - 10px);
+    min-width: 200px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px rgba(32, 29, 29, 0.947);
+    padding: 1%;
+    border-radius: 15px;
+    color: blue;
+    
+}
+
+.pic{
+    width: 220px;
+    height: 220px;
+    margin: 2%;
+    box-shadow: 3px 3px 5px rgba(32, 29, 29, 0.947);
+
+}
+
+img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(232, 21, 21, 0.8), 0 0 40px rgba(247, 33, 33, 0.6);
+}
+fieldset:hover{
+  
+    box-shadow: 0 0 20px rgba(232, 21, 21, 0.8), 0 0 40px rgba(247, 33, 33, 0.6);
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: grey;/* Translucent grey */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+    height: fit-content;
+    font-weight: 700;
+}
+
+
+.logo img {
+    width: 30px;
+}
+.menu{
+    background-color: rgba(128, 128, 128, 0.8);
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+   
+}
+.menu ul li a.active-link {
+    color: #d3d3d3; /* Light grey color for active link */
+}
+.menu ul li a:hover {
+    color: #ddd;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px;
+}
+
+.content {
+    min-height: 100vh; /* Ensures there's enough height for scrolling */
+    padding: 20px; /* Space around your content */
+}
+
+footer {
+    background-color: grey; /* Dark background color */
+    color: white;
+    padding: 20px;
+    width: 100%;
+    position: relative; /* Allows normal flow of the footer */
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+footer .column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer p, footer a {
+    font-size: 14px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer .socialIcons a {
+    margin-right: 10px;
+    color: #ccc;
+}
+
+footer .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+/* This rule ensures the footer stays at the bottom of the content */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex-grow: 1; /* This allows the content to take up space and pushes footer down */
+}
+/* Navigation Bar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey; /* Dark grey background */
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    position: relative; /* Needed for positioning dropdown */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #555; /* Slightly lighter grey on hover */
+}
+@media (max-width: 1024px) {
+    .menu {
+        position: fixed;
+        left: -250px;
+        top: 0;
+        width: 250px;
+        height: 100%;
+        background-color: rgba(128, 128, 128, 0.9); /* Translucent grey for side menu */
+        transition: left 0.3s ease;
+        z-index: 999;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .menu ul li {
+        margin: 20px 0;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .menu.active {
+        left: 0;
+    }
+}

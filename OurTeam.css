@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .portfolio {
+    margin-bottom: 40px;
+  }
+  .portfolio h2 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  /* Horizontal scrolling for the card container */
+  .candidate-cards {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    scroll-snap-type: x mandatory;
+  }
+  .candidate-cards::-webkit-scrollbar {
+    height: 8px;
+  }
+  .candidate-cards::-webkit-scrollbar-thumb {
+    background-color:#555;
+    border-radius: 10px;
+  }
+  .candidate-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 15px;
+    padding: 20px;
+    width: 200px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    text-align: center;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+  .candidate-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  .candidate-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  .candidate-card h3 {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+  }
+  .manifesto {
+    display: none;
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: left;
+    color: #555;
+  }
+  
+  .see-more {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  .see-more:hover {
+    background-color: #555;
+  }
+   /* Style for the header container */
+.header-container {
+  display: flex;
+  justify-content: space-between; /* Push items to the far left and right */
+  align-items: center; /* Vertically align logo and button */
+  padding: 10px 20px; /* Add some padding for spacing */
+  background-color:#555; /* Optional: Background color */
+}
+
+/* Logo styling */
+.logo img {
+  max-height: 60px; /* Adjust the height of the logo */
+}

@@ -1,0 +1,243 @@
+
+h2{
+    color: red;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.h3{
+    color: rgb(119, 53, 53);
+    
+    font-style: oblique;
+}
+
+.contact-container p{
+    padding-bottom: 1px;
+    font-size: 1.05rem;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.contact-form {
+    flex: 1; /* Adjust this value as needed */
+    margin-right: 20px; /* Space between form and map */
+}
+
+.map {
+    flex: 1; /* Adjust this value as needed */
+}
+
+/* Optional: Ensure the map is responsive */
+.map iframe {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+}
+
+.contact-info {
+    margin: 20px auto;
+    width: 70%;
+    text-align: left;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+
+.myinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info .myinfo div {
+    width: 80%;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box {
+    width: 48%;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 14px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+
+form input, form textarea {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    background-color: #ccc;
+}
+form input:hover, textarea:hover {
+background-color: white;
+}
+
+form button {
+    padding: 8px 20px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1c4d69;
+}
+
+.galleries{
+    display: flex;
+    gap: 20px;
+}
+#school-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px;
+}
+.gallery{
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+ 
+}
+.gallery:hover {
+    transform: scale(1.1);
+}
+
+.gallery-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery p{
+    color: red; 
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid red;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.gallery-link {
+    display: block;
+    text-decoration: none;
+}
+.main-gallery {
+    padding: 40px ;
+    text-align: center;
+    background-color: #f9f9f9;
+    
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 50px;
+    padding: 20px;
+    
+    margin: 20px;
+    justify-content: center;
+    
+}
+
+.gallery-grid img { 
+   height: 180px;
+  width: 120%;
+   border-radius: 10px;
+}
+
+.gallery-image:hover{
+    transform: scale(1.1); 
+}
+.navbar{
+    width: 80%;
+}
+.logo{
+    margin-left: 25px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444; /* Dark grey background */
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    position: relative; /* Needed for positioning dropdown */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #555; /* Slightly lighter grey on hover */
+}
