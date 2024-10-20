@@ -9,6 +9,9 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
+header{
+    width: 100%;
+}
 footer{
     width: 100%;
     bottom: 0;
@@ -115,14 +118,14 @@ i,p,h1,h2,h3,h5,h6{
 
 }
 
-img:hover{
+/* img:hover{
     transform: scale(1.1);
     box-shadow: 0 0 20px rgba(232, 21, 21, 0.8), 0 0 40px rgba(247, 33, 33, 0.6);
 }
 fieldset:hover{
   
     box-shadow: 0 0 20px rgba(232, 21, 21, 0.8), 0 0 40px rgba(247, 33, 33, 0.6);
-}
+} */
 .navbar {
     position: sticky;
     top: 0;
