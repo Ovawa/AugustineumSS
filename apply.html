@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="styled.css">
+</head>
+<body>
+
+    <form id="applicationForm" onsubmit="return showConfirmation()" method="post" enctype="multipart/form-data">
+    
+        <h2>Augustinium Secondary School Application Form </h2>
+        <p><br> (*)required <br> make sure all your documents are converted to pdf</p>
+
+        <label for="name">Name/s <span class="required">*</span></label>
+        <input type="text" id="name" name="name" required>
+
+
+        <label for="surname">Surname <span class="required">*</span></label>
+        <input type="text" id="surname" name="surname" required>
+
+
+        <label for="dob">Date of Birth <span class="required">*</span></label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="current_school">Current School <span class="required">*</span></label>
+        <input type="text" id="current_school" name="current_school" required>
+
+        <label for="highest_grade">Highest Grade Passed <span class="required">*</span></label>
+        <input type="text" id="highest_grade" name="highest_grade" required>
+
+        <label for="grade_applying">Grade You Are Applying For <span class="required">*</span></label>
+        <select id="grade_applying" name="grade_applying" required>
+            <option value="">Select a grade</option>
+            <option value="8">Grade 8</option>
+            <option value="9">Grade 9</option>
+            <option value="10">Grade 10</option>
+            <option value="11">Grade 11</option>
+            <option value="12">Grade 12</option>
+        </select>
+
+        <label for="grade_certificate">Upload Current Grade Certificate <span class="required">*</span></label>
+        <input type="file" id="grade_certificate" name="grade_certificate" accept=".pdf" required>
+
+                <label for="additional_files">Upload Additional Files (Optional)</label>
+                <input type="file" id="additional_files" name="additional_files" accept=".pdf">
+        
+                <label for="testimonial">Upload Testimonial <span class="required">*</span></label>
+                <input type="file" id="testimonial" name="testimonial" accept=".pdf" required>
+        
+                <label for="about_yourself">Tell Us About Yourself <span class="required">*</span></label>
+                <textarea id="about_yourself" name="about_yourself" rows="5" required></textarea>
+        
+        <input type="submit" value="Submit Application">
+        
+
+        <div id="confirmationModal" class="modal">
+            <div class="modal-content">
+                <h2>Application Submitted!</h2>
+                <p>Your application has been successfully submitted. You will be redirected to the homepage.</p>
+                <button onclick="confirmSubmission()">OK</button>
+            </div>
+        </div>
+        <script src="application.js"></script>
+
+    </form>
+
+</body>
+</html>
