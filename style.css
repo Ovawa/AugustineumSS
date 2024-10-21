@@ -186,8 +186,8 @@ fieldset:hover{
 }
 
 .content {
-    min-height: 100vh; /* Ensures there's enough height for scrolling */
-    padding: 20px; /* Space around your content */
+    min-height: 100vh; 
+    padding: 20px; 
 }
 
 footer {
