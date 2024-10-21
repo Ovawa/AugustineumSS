@@ -113,6 +113,9 @@
     isolation: isolate;
     padding: 20px;
   }
+.content {
+  padding: 5px;
+}
   .ad_card {
     box-shadow: 0 5px 8px rgb(0 0 0 / 20%), 0 2px 3px rgb(0 0 0 / 20%) !important;
     text-align: center;
