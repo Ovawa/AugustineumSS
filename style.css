@@ -83,10 +83,12 @@ i:hover{
     background-color: #fbb1b1;
 }
 
-i,p,h1,h2,h3,h5,h6{
+i,p,h1,h2,h3,h6{
     color: rgb(118, 6, 6);
 }
-
+.colunm h5{
+    color: black;
+}
 .boxes{
     margin: 3%;
     padding: 3%;
