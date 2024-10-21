@@ -115,6 +115,7 @@
   }
 .content {
   padding: 5px;
+    height: fit-content;
 }
   .ad_card {
     box-shadow: 0 5px 8px rgb(0 0 0 / 20%), 0 2px 3px rgb(0 0 0 / 20%) !important;
