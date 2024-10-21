@@ -47,6 +47,12 @@ h2{
     border-radius: 5px;
    
 }
+.address p{
+color:black;
+}
+.schoolhours p{
+color: black;
+}
 .contact-info p{
     color: #000;
 }
