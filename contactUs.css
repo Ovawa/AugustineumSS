@@ -47,7 +47,9 @@ h2{
     border-radius: 5px;
    
 }
-
+.contact-info p{
+    color: #000;
+}
 .myinfo {
     display: flex;
     justify-content: space-between;
