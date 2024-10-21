@@ -195,7 +195,7 @@ footer {
     color: white;
     padding: 20px;
     width: 100%;
-    position: relative; /* Allows normal flow of the footer */
+    position: relative;
 }
 
 footer .row {
@@ -238,15 +238,9 @@ footer .footer-bottom {
     color: #ccc;
 }
 
-/* This rule ensures the footer stays at the bottom of the content */
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-.content {
+/* .content {
     flex-grow: 1; /* This allows the content to take up space and pushes footer down */
-}
+
 /* Navigation Bar Styles */
 .navbar {
     display: flex;

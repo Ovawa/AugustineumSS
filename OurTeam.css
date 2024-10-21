@@ -1,14 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
   }
   h1 {
     text-align: center;
     margin-bottom: 20px;
   }
   .portfolio {
+    text-align: center;
+    justify-items: center;
     margin-bottom: 40px;
   }
   .portfolio h2 {
@@ -52,6 +62,7 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    object-fit: cover;
     margin-bottom: 15px;
   }
   .candidate-card h3 {
@@ -83,13 +94,13 @@ body {
    /* Style for the header container */
 .header-container {
   display: flex;
-  justify-content: space-between; /* Push items to the far left and right */
-  align-items: center; /* Vertically align logo and button */
-  padding: 10px 20px; /* Add some padding for spacing */
-  background-color:#555; /* Optional: Background color */
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 20px; 
+  background-color:#555; 
 }
 
 /* Logo styling */
 .logo img {
-  max-height: 60px; /* Adjust the height of the logo */
+  max-height: 60px;
 }

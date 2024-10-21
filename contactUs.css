@@ -204,7 +204,7 @@ form button:hover {
 .gallery-image:hover{
     transform: scale(1.1); 
 }
-.navbar{
+/* .navbar{
     width: 80%;
 }
 .logo{
@@ -214,7 +214,7 @@ form button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #444; /* Dark grey background */
+    background-color: #444;
     padding: 10px 20px;
     position: sticky;
     top: 0;
@@ -228,7 +228,7 @@ form button:hover {
 }
 
 .nav-links li {
-    position: relative; /* Needed for positioning dropdown */
+    position: relative; 
 }
 
 .nav-links a {
@@ -239,5 +239,5 @@ form button:hover {
 }
 
 .nav-links a:hover {
-    background-color: #555; /* Slightly lighter grey on hover */
-}
+    background-color: #555;
+} */
