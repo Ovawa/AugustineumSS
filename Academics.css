@@ -130,3 +130,23 @@ h4{
     font-size: 2em;
     color: #333;
 }
+.download-btn1 {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #7c817c; 
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.download-btn1:hover {
+    background-color: #a04845; 
+}
+
+.download-btn1:active {
+    transform: scale(0.98); 
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
